@@ -144,9 +144,7 @@ section.topo-do-site h1 span {
     25%, 45% {
         content: 'Designer UI/UX';
     }
-    50%, 75% {
-        content: 'Criador de Conteúdo';
-    }
+
     75%, 95% {
         content: 'Freelancer';
     }
@@ -173,8 +171,10 @@ section.topo-do-site h1 span {
 
 /* Seção de especialidades  */
 section.especialidades {
-    padding: 40px 4%;
+    padding: 120px 0;
 }
+
+
 
 section.especialidades .flex {
     gap: 60px;
@@ -212,7 +212,7 @@ section.especialidades .flex {
 
 
 section.sobre {
-    padding: 40px 4%;
+    padding: 120px 0;
 }
 
 section.sobre .flex {
@@ -335,23 +335,23 @@ form textarea{
     max-height: 200px;
 }
 
-form .bnt-enviar{
+form .btn-enviar{
     margin-top: 15px;
     text-align: center;
 }
 
-form .bnt-enviar input {
+form .btn-enviar input {
     width: 200px;
     color: white;
     background-color: #b74b4b;
     font-weight: 700;
+     transition: 0.2s ease-in-out;
 } 
 
-form .bnt-enviar input:hover{
+form .btn-enviar input:hover{
     cursor: pointer;
     box-shadow: 0 0 8px #fff;
     transform: scale(1.05);
-    transition: 0.2s;
 }
 
 footer {
