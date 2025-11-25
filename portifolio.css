@@ -88,6 +88,10 @@ section.topo-do-site h1 span {
     color: #b74b4b;
 }
 
+.topo-do-site img {
+    width: 400px;
+}
+
 .topo-do-site h1 {
     color: white;
     font-size: 38px;
@@ -99,13 +103,6 @@ section.topo-do-site h1 span {
     font-size: 19px;
     margin: 40px 0px;
 }
-
-/* .topo-do-site p {
-    color: #8b949e;
-    font-size: 14px;
-    margin: 40px 0px;
-} */
-
 
 .texto-escrito span {
     position: relative;
@@ -404,6 +401,10 @@ footer {
 
     .txt-topo-site h1 {
         line-height: 1;
+    }
+
+    .topo-do-site img {
+        width: 300px;
     }
 }
 
